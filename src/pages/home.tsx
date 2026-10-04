@@ -45,16 +45,9 @@ export default function Home() {
       image:
         "https://www.foodandwine.com/thmb/XE8ubzwObCIgMw7qJ9CsqUZocNM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSG-Smash-Burger-FT-RECIPE0124-d9682401f3554ef683e24311abdf342b.jpg",
     },
-    {
-      id: "7",
-      name: "burger 7",
-      price: 6,
-      image:
-        "https://www.foodandwine.com/thmb/XE8ubzwObCIgMw7qJ9CsqUZocNM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSG-Smash-Burger-FT-RECIPE0124-d9682401f3554ef683e24311abdf342b.jpg",
-    },
   ];
   return (
-    <div>
+    <div className="flex flex-wrap justify-center sm:justify-start gap-4">
       {mockFood.map((food) => (
         <FoodCard key={food.id} food={food} />
       ))}

@@ -7,7 +7,7 @@ export default function FoodCard({ food }: props) {
   return (
     <div className="inline-flex flex-col items-center justify-center p-2 bg-primary my-border">
       <img
-        className="mb-5 size-40 sm:size-50 object-cover rounded-md"
+        className="mb-5 size-30 sm:size-50 object-cover rounded-md"
         src={food.image}
         alt=""
       />
