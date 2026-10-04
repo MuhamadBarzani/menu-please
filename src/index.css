@@ -1,6 +1,17 @@
 @import "tailwindcss";
-:root{
+:root {
   background-color: black;
-  color: white;
+  color: var(--color-text);
   padding: 1%;
+}
+@theme {
+  --color-primary: #010736;
+  --color-secondary: #0d1c42;
+  --color-third: #22396f;
+  --color-text: #fcf1d0;
+}
+
+@utility my-border {
+  border: 2px solid var(--color-third);
+  border-radius: 12px;
 }
