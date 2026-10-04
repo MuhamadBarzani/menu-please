@@ -2,7 +2,7 @@
 :root {
   background-color: black;
   color: var(--color-text);
-  padding: 1%;
+  padding: 2%;
 }
 @theme {
   --color-primary: #010736;

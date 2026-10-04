@@ -47,7 +47,7 @@ export default function Home() {
     },
   ];
   return (
-    <div className="flex flex-wrap justify-center sm:justify-start gap-4">
+    <div className="flex flex-wrap justify-center gap-5 sm:justify-start sm:gap-4">
       {mockFood.map((food) => (
         <FoodCard key={food.id} food={food} />
       ))}
