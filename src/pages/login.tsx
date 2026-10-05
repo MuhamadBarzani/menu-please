@@ -1,11 +1,21 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { signUp } from "../api/login";
 import Field from "../components/ui/Field";
 import { useNavigate } from "react-router";
+import { supabase } from "../utils/supabase";
 
 export default function Login() {
   const [isLogin, setIsLogin] = useState(true);
   const navigate = useNavigate();
+  useEffect(() => {
+    async function getUser() {
+      const { data } = await supabase.auth.getUser();
+      if (data.user) {
+        navigate("/");
+      }
+    }
+    getUser();
+  }, []);
   return (
     <div className="flex items-center justify-center min-h-screen">
       <div className="border rounded-2xl bg-amber-950 border-amber-800 p-20">
