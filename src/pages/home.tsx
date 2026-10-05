@@ -1,4 +1,4 @@
-import FoodCard from "../components/ui/FoodCard";
+import FoodCard from "../components/ui/ItemCard";
 import type { Food } from "../types/food";
 
 export default function Home() {
@@ -9,6 +9,7 @@ export default function Home() {
       price: 5,
       image:
         "https://www.foodandwine.com/thmb/XE8ubzwObCIgMw7qJ9CsqUZocNM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSG-Smash-Burger-FT-RECIPE0124-d9682401f3554ef683e24311abdf342b.jpg",
+      category: "burgers",
     },
     {
       id: "2",
@@ -16,6 +17,7 @@ export default function Home() {
       price: 5,
       image:
         "https://www.foodandwine.com/thmb/XE8ubzwObCIgMw7qJ9CsqUZocNM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSG-Smash-Burger-FT-RECIPE0124-d9682401f3554ef683e24311abdf342b.jpg",
+      category: "burgers",
     },
     {
       id: "3",
@@ -23,6 +25,7 @@ export default function Home() {
       price: 5,
       image:
         "https://www.foodandwine.com/thmb/XE8ubzwObCIgMw7qJ9CsqUZocNM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSG-Smash-Burger-FT-RECIPE0124-d9682401f3554ef683e24311abdf342b.jpg",
+      category: "burgers",
     },
     {
       id: "4",
@@ -30,6 +33,7 @@ export default function Home() {
       price: 5,
       image:
         "https://www.foodandwine.com/thmb/XE8ubzwObCIgMw7qJ9CsqUZocNM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSG-Smash-Burger-FT-RECIPE0124-d9682401f3554ef683e24311abdf342b.jpg",
+      category: "burgers",
     },
     {
       id: "5",
@@ -37,6 +41,7 @@ export default function Home() {
       price: 8,
       image:
         "https://www.foodandwine.com/thmb/XE8ubzwObCIgMw7qJ9CsqUZocNM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSG-Smash-Burger-FT-RECIPE0124-d9682401f3554ef683e24311abdf342b.jpg",
+      category: "burgers",
     },
     {
       id: "6",
@@ -44,6 +49,7 @@ export default function Home() {
       price: 2,
       image:
         "https://www.foodandwine.com/thmb/XE8ubzwObCIgMw7qJ9CsqUZocNM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSG-Smash-Burger-FT-RECIPE0124-d9682401f3554ef683e24311abdf342b.jpg",
+      category: "burgers",
     },
   ];
   return (

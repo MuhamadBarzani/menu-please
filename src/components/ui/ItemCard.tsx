@@ -3,7 +3,7 @@ import type { Food } from "../../types/food";
 type props = {
   food: Food;
 };
-export default function FoodCard({ food }: props) {
+export default function ItemCard({ food }: props) {
   return (
     <div className="inline-flex flex-col items-center justify-center p-2 bg-primary my-border">
       <img

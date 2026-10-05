@@ -2,7 +2,6 @@
 :root {
   background-color: black;
   color: var(--color-text);
-  padding: 2%;
 }
 @theme {
   --color-primary: #010736;
@@ -10,7 +9,6 @@
   --color-third: #22396f;
   --color-text: #fcf1d0;
 }
-
 @utility my-border {
   border: 2px solid var(--color-third);
   border-radius: 12px;
